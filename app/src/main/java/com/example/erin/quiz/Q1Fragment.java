@@ -7,7 +7,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 
 /**
  * Created by Erin on 2/18/2016.
@@ -54,9 +53,5 @@ public class Q1Fragment extends Fragment {
                                 .commit();
                     }
                 });
-    }
-
-    public void saveAndProceed() {
-
     }
 }

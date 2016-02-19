@@ -18,6 +18,5 @@ public class QuizActivity extends Activity {
                 .replace(R.id.main_fragment_container, Q1Fragment.newInstance())
                 .addToBackStack(null)
                 .commit();
-
     }
 }
