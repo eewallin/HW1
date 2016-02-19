@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/q"
+    tools:context="com.example.erin.quiz.Q1Fragment">
+
+    <EditText
+        android:layout_width="137dp"
+        android:layout_height="37dp"
+        android:id="@+id/q1answer"
+        android:layout_gravity="center"
+        android:background="#d6d4d4"
+        android:hint="e.g. Bee"
+        android:layout_marginTop="66dp"
+        android:layout_alignTop="@+id/image"
+        android:layout_toEndOf="@+id/image" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:id="@+id/q1button"
+        android:layout_gravity="right|center_vertical"
+        android:layout_below="@+id/q1answer"
+        android:layout_alignStart="@+id/q1answer" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Name That Bug"
+        android:id="@+id/q1title"
+        android:layout_gravity="left|top"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/image" />
+
+    <ImageView
+        android:layout_width="184dp"
+        android:layout_height="234dp"
+        android:id="@+id/image"
+        android:layout_gravity="right|top"
+        android:src="@drawable/blattodea"
+        android:layout_marginStart="50dp"
+        android:layout_below="@+id/q1title"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
